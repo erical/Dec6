@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>	//for CADisplayLink
 
 @interface Dec6ViewController : UIViewController
 

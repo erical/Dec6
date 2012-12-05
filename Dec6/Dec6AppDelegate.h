@@ -10,7 +10,9 @@
 
 @class Dec6ViewController;
 
-@interface Dec6AppDelegate : UIResponder <UIApplicationDelegate>
+@interface Dec6AppDelegate : UIResponder <UIApplicationDelegate> {
+	UIWindow *_window;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
